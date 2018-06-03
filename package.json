@@ -1,0 +1,30 @@
+{
+  "name": "fetch-headers-pojo",
+  "version": "0.0.0",
+  "description": "utility to transform a Headers object to a pojo and vica versa",
+  "main": "index.js",
+  "unpkg": "bundle.js",
+  "scripts": {
+    "bundle": "browserify index.js -s fetchHeadersPojo -o bundle.js",
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiefbiiko/fetch-headers-pojo.git"
+  },
+  "keywords": [
+    "fetch",
+    "headers",
+    "pojo"
+  ],
+  "author": "Noah Anabiik Schwarz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chiefbiiko/fetch-headers-pojo/issues"
+  },
+  "homepage": "https://github.com/chiefbiiko/fetch-headers-pojo#readme",
+  "devDependencies": {
+    "browserify": "^16.2.2",
+    "tape": "^4.9.0"
+  }
+}
