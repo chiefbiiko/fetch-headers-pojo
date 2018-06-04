@@ -3,10 +3,9 @@ function pojoToHeaders (pojo) {
 }
 
 function pojoFromHeaders (headers) {
-  return [ ...headers.entries() ].reduce(function (acc, cur) {
-    acc[cur[0]] = cur[1]
-    return acc
-  }, {})
+  const pojo = {}
+  for (const prop of headers.entries())  pojo[prop[0]] = prop[1]
+  return pojo
 }
 
 module.exports = { pojoToHeaders, pojoFromHeaders }
