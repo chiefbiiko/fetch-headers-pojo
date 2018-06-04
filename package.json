@@ -1,6 +1,6 @@
 {
   "name": "fetch-headers-pojo",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "utility to transform a Headers object to a pojo and vica versa",
   "main": "index.js",
   "unpkg": "bundle.js",
